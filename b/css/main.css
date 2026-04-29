@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: url('../fonts/Inter/Inter_28pt-Thin.woff2') format('woff2');
+  src: url('../fonts/Inter/Inter_28pt-Thin.subset.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../fonts/Inter/Inter_28pt-Regular.woff2') format('woff2');
+  src: url('../fonts/Inter/Inter_28pt-Regular.subset.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../fonts/Inter/Inter_28pt-SemiBold.woff2') format('woff2');
+  src: url('../fonts/Inter/Inter_28pt-SemiBold.subset.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'GreatVibes';
-  src: url('../fonts/GreatVibes/GreatVibes-Regular.ttf') format('truetype');
+  src: url('../fonts/GreatVibes/GreatVibes-Regular.subset.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'Halvar Engschrift';
-  src: url('../fonts/Halvar Engschrift/HalvarEngschrift-Regular.woff2') format('woff2');
+  src: url('../fonts/Halvar Engschrift/HalvarEngschrift-Regular.subset.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'Halvar Engschrift';
-  src: url('../fonts/Halvar Engschrift/HalvarEngschrift-Bold.woff2') format('woff2');
+  src: url('../fonts/Halvar Engschrift/HalvarEngschrift-Bold.subset.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: 'Herokid';
-  src: url('../fonts/Herokid/Herokid-Regular.woff2') format('woff2');
+  src: url('../fonts/Herokid/Herokid-Regular.subset.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: 'Herokid';
-  src: url('../fonts/Herokid/Herokid-Medium.woff2') format('woff2');
+  src: url('../fonts/Herokid/Herokid-Medium.subset.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: 'Herokid';
-  src: url('../fonts/Herokid/Herokid-Bold.woff2') format('woff2');
+  src: url('../fonts/Herokid/Herokid-Bold.subset.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
