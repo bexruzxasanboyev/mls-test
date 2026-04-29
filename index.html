@@ -113,7 +113,7 @@
     .hero__title {
       font-family: Herokid;
       font-weight: 600;
-      font-size: clamp(24px, 7vw, 30px);
+      font-size: clamp(24px, 9vw, 36px);
       line-height: 143%;
       letter-spacing: 2%;
       text-transform: uppercase;
@@ -129,13 +129,13 @@
     .timer-container {
       background-color: #FFE8BB;
       height: 28px;
-      max-width: clamp(90px, 10vw, 103px);
+      max-width: clamp(90px, 12vw, 103px);
       border-radius: 10px;
       margin-left: -80px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 12px;
+      margin-bottom: clamp(7px, 3vw, 16px);
     }
 
     .timer {
@@ -157,6 +157,7 @@
       font-size: clamp(12px, 4vw, 16px);
       line-height: 100%;
       color: #FFDF70;
+      margin-bottom: 11px;
     }
 
     .logo-wrap {
@@ -473,7 +474,7 @@
           <p class="row__description">Kunlari</p>
         </div>
         <div class="header__row__bottom">
-          <h4 class="row__title">20:00da</h4>
+          <h4 class="row__title">20:00 <span style="text-transform: lowercase; margin-left: -3px;">da</span></h4>
           <p class="row__description">Vaqti</p>
         </div>
       </div>
