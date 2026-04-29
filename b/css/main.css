@@ -75,9 +75,9 @@
 .wrapper {
   background-image: url(../images/section/wrapper__1.avif);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   max-width: 375px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 72vh;
