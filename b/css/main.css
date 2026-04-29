@@ -684,13 +684,12 @@
 
 .wrapper__img {
   max-width: 375px;
-  width: 100%;
-  position: fixed;
+  height: 700px;
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
-  margin: 0 auto;
 }
 
 /* 
