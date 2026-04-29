@@ -162,7 +162,7 @@
     .bonus__title {
       font-family: 'Halvar Engschrift', sans-serif;
       font-weight: 700;
-      font-size: clamp(20px, 6vw, 30px);
+      font-size: clamp(25px, 6vw, 30px);
       line-height: 100%;
       text-align: center;
       text-transform: uppercase;
@@ -177,14 +177,15 @@
       padding: 20px 20px;
       box-shadow: 0 8px 24px rgb(0 0 0 / .18);
       overflow: hidden;
-      height: 180px
+      height: 180px;
+      z-index: 11;
     }
 
     .bonus__card__1 {
       max-width: 322px;
       width: 100%;
       height: 200px;
-      border-radius: 26px
+      border-radius: 26px;
     }
 
     .bonus__heading {
@@ -203,7 +204,9 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
-      max-width: 70%
+      max-width: 70%;
+      position: relative;
+      z-index: 11
     }
 
     .bonus__item {
@@ -232,10 +235,12 @@
     .bonus__img {
       position: absolute;
       right: -20px;
-      bottom: -60px;
-      width: 160px;
+      bottom: -40px;
+      max-width: 140px;
+      width: 100%;
       height: auto;
-      pointer-events: none
+      pointer-events: none;
+      z-index: 5;
     }
 
     .learn {
@@ -336,11 +341,11 @@
     }
 
     .learn__nav--prev {
-      left: -8px
+      left: -4px
     }
 
     .learn__nav--next {
-      right: -8px
+      right: -4px
     }
 
     .learn__btn {
@@ -521,7 +526,7 @@
       </div>
     </section>
   </div>
-  <img src="./images/section/wrapper__1.avif" alt="img" width="700" height="700" class="wrapper__img">
+  <img src="./images/section/wrapper__1.avif" alt="img" width="800" height="800" loading="lazy" decoding="async" class="wrapper__img">
   <section class="bonus">
     <div class="bonus__container container">
       <h2 class="bonus__title">Darsda qatnashganlar <br> uchun bonuslar</h2>
