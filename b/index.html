@@ -415,26 +415,31 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100%
+      width: 100%;
+      position: relative;
+      z-index: 11;
     }
 
     .footer__icon {
       width: 100px;
       height: 100px;
       object-fit: contain;
-      display: block
+      margin-bottom: -24px;
     }
 
     .footer__icon__1 {
       background-color: #F9223C;
-      height: auto;
-      width: 100px;
       height: 79px;
+      max-width: 100px;
+      width: 100%;
       border-top-left-radius: 20px;
-      border-top-right-radius: 20px
+      border-top-right-radius: 20px;
+      position: absolute;
+      z-index: 5;
     }
-
     .footer__card {
+      position: relative;
+      z-index: 11;
       background: #fff;
       border-radius: 14px;
       padding: 14px 18px;
@@ -626,8 +631,8 @@
           </div>
         </li>
         <li class="footer__item">
-          <img src="./images/learn/learn__img__3.webp" width="160" height="240" loading="lazy" decoding="async" alt=""
-            class="footer__icon__1">
+            <img src="./images/learn/learn__img__3.avif" width="160" height="240" loading="lazy" decoding="async" alt=""
+              class="footer__icon">
           <div class="footer__card">
             <p class="footer__card-title">
               <span>Prioritetlar qo‘yish</span><br>

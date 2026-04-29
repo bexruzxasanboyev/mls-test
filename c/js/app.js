@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     localStorage.setItem("formData", JSON.stringify(payload));
-    window.location.href = "/b/thankYoub.html";
+    window.location.href = "/thankYou.html";
 
     r.textContent = "DAVOM ETISH";
     r.disabled = !1;
