@@ -56,7 +56,7 @@
       font-weight: 700;
       font-style: Bold;
       font-size: clamp(24px, 8vw, 30px);
-      line-height: 105%;
+      line-height: 115%;
       text-align: center;
       text-transform: uppercase;
       margin-bottom: 9px;
@@ -148,7 +148,7 @@
       border-radius: 15px;
       cursor: pointer;
       transition: transform 0.2s ease;
-      margin-top: -70px
+      margin-top: -50px
     }
 
     .bonus {
@@ -170,6 +170,10 @@
       margin-bottom: 22px
     }
 
+    .backg__inner {
+      position: relative;
+    }
+
     .bonus__card {
       position: relative;
       background: #d0241b;
@@ -178,14 +182,18 @@
       box-shadow: 0 8px 24px rgb(0 0 0 / .18);
       overflow: hidden;
       height: 180px;
-      z-index: 11
+      z-index: 11;
+      position: absolute;
+      top: 10px;
     }
 
-    .bonus__card__1 {
-      max-width: 322px;
+    .backg {
+      max-width: 310px;
       width: 100%;
       height: 200px;
-      border-radius: 26px
+      border-radius: 26px;
+      background-color: #FFD7B1;
+      margin: 0 auto;
     }
 
     .bonus__heading {
@@ -526,24 +534,27 @@
       </div>
     </section>
   </div>
-  <img src="./images/section/wrapper__1.avif" alt="img" width="800" height="800" loading="lazy" decoding="async"
+  <img src="./images/section/wrapper__1.avif" alt="img" width="720" height="720" loading="lazy" decoding="async"
     class="wrapper__img">
   <section class="bonus">
     <div class="bonus__container container">
       <h2 class="bonus__title">Darsda qatnashganlar <br> uchun bonuslar</h2>
 
-      <div class="bonus__card">
-        <div class="bonus__content">
-          <p class="bonus__heading">VIDEO DARSLAR:</p>
-          <ol class="bonus__list">
-            <li class="bonus__item"><span>Kreditlar</span> va ularning to‘lovlari</li>
-            <li class="bonus__item"><span>Qarz yukini</span> hisoblash</li>
-            <li class="bonus__item">Kreditdagi <span>yashirin to‘lovlar</span></li>
-            <li class="bonus__item">Excel’da <span>kreditlarni hisoblash</span> jadvali (fayli bilan)</li>
-          </ol>
+      <div class="backg__inner">
+        <div class="backg"></div>
+        <div class="bonus__card">
+          <div class="bonus__content">
+            <p class="bonus__heading">VIDEO DARSLAR:</p>
+            <ol class="bonus__list">
+              <li class="bonus__item"><span>Kreditlar</span> va ularning to‘lovlari</li>
+              <li class="bonus__item"><span>Qarz yukini</span> hisoblash</li>
+              <li class="bonus__item">Kreditdagi <span>yashirin to‘lovlar</span></li>
+              <li class="bonus__item">Excel’da <span>kreditlarni hisoblash</span> jadvali (fayli bilan)</li>
+            </ol>
+          </div>
+          <img src="./images/bonus/bnus__img.avif" width="180" height="190" loading="lazy" decoding="async"
+            alt="Bonus sovg‘a" class="bonus__img">
         </div>
-        <img src="./images/bonus/bnus__img.avif" width="180" height="190" loading="lazy" decoding="async"
-          alt="Bonus sovg‘a" class="bonus__img">
       </div>
     </div>
   </section>
