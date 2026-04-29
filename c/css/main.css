@@ -23,9 +23,10 @@ body {
 }
 
 .header {
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 390px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 16px;
 }
 
@@ -42,7 +43,7 @@ body {
   width: 100%;
 }
 
-.flex__text {
+.header__text {
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -60,10 +61,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.hero__container {}
-
-.container {}
 
 .hero__title {
   font-family: Herokid;
@@ -100,8 +97,6 @@ body {
   color: white;
 }
 
-.hero__inner {}
-
 .inner__wrapper {
   display: flex;
   position: relative;
@@ -116,14 +111,12 @@ body {
 .info__title {
   font-family: Herokid;
   font-weight: 600;
-  font-size: 24px;
+  font-size: clamp(15px, 7vw, 24px);
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 8px;
   color: white;
 }
-
-.info__row {}
 
 .row__col {
   background-color: #FFFFFF;
@@ -169,12 +162,17 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  max-width: 350px;
+  width: 100%;
 }
 
 .timer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 16;
+  margin-top: 10px;
 }
 
 .timer {
@@ -187,8 +185,26 @@ body {
   color: white;
 }
 
-.hero__flex {}
+.hero__flex {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
-.flex__text {}
+.flex__text {
+  font-family: Inter , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: white;
+}
 
-.arrow {}
+.arrow {
+  position: absolute;
+  right: 20px;
+  top: -70px;
+  z-index: 16;
+  height: auto;
+}
