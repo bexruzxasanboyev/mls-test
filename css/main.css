@@ -1,24 +1,24 @@
 @font-face {
   font-family: Herokid;
-  src: url(../fonts/Herokid/herokid-bold-ultra-condensed-demo\ \(1\).woff2);
+  src: url(../fonts/Herokid/Herokid.subset.woff2) format('woff2');
   font-display: swap;
 }
 
 @font-face {
   font-family: InterLight;
-  src: url(../fonts/Inter/Inter_28pt-Thin.woff2);
+  src: url(../fonts/Inter/Inter_28pt-Thin.subset.woff2) format('woff2');
   font-display: swap;
 }
 
 @font-face {
   font-family: InterRegular;
-  src: url(../fonts/Inter/Inter_28pt-Regular.woff2);
+  src: url(../fonts/Inter/Inter_28pt-Regular.subset.woff2) format('woff2');
   font-display: swap;
 }
 
 @font-face {
   font-family: InterSemiBold;
-  src: url(../fonts/Inter/Inter_28pt-SemiBold.woff2);
+  src: url(../fonts/Inter/Inter_28pt-SemiBold.subset.woff2) format('woff2');
   font-display: swap;
 }
 
