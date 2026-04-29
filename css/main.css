@@ -1,7 +1,7 @@
 @font-face {
   font-family: Herokid;
-  src: url(../fonts/Herokid/Fontspring-DEMO-herokid-boldcondensed.woff2) format('woff2');
-  font-display: swap;
+  src: url(../fonts/Herokid/Fontspring-DEMO-herokid-semiboldcondensed.woff2);
+  font-display: swap; 
 }
 
 @font-face {
