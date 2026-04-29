@@ -9,17 +9,17 @@
     * {
       margin: 0;
       padding: 0;
-      box-sizing: border-box
+      box-sizing: border-box;
     }
-  
+
     .header {
       padding-top: 0;
       padding-bottom: 0;
       background-color: #ebe8e3;
       min-height: 100vh;
-      padding-top: 180px
+      padding-top: 180px;
     }
-  
+
     .header-container {
       margin-left: auto;
       margin-right: auto;
@@ -30,48 +30,52 @@
       padding-left: 20px;
       padding-right: 20px
     }
-  
+
     .hero-left {
-      max-width: 903px;
+      max-width: 390px;
       width: 100%;
       display: flex;
       flex-direction: column;
-      align-items: center
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
     }
-  
+
     .hero-title {
-      font-family: "Bebas Neue", sans-serif;
-      font-size: 96px;
+      font-family: inter;
+      font-weight: 700;
+      font-size: clamp(24px, 7vw, 30apx);
       line-height: 100%;
-      letter-spacing: 0%;
       text-align: center;
       margin-bottom: 8px;
       text-transform: uppercase;
-      max-width: 622px
+      max-width: 622px;
+      margin-left: 20px;
     }
-  
+
     .hero__text {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
-      font-size: 24px;
+      font-size: 16px;
       line-height: 100%;
       letter-spacing: 0%;
       margin-bottom: 16px;
       max-width: 522px;
       font-style: italic
     }
-  
+
     .hero-text>span {
       color: red
     }
-  
+
     .hero__flex {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px
     }
-  
+
     .hero__flex p {
       font-family: Caros, sans-serif;
       font-weight: 400;
@@ -81,18 +85,18 @@
       margin-left: 26px;
       margin-top: -23px
     }
-  
+
     .thankyou__img {
       height: auto
     }
-  
+
     .hero__flex {
       display: flex;
       align-items: center;
       fdlex-direction: column;
       gap: 10px
     }
-  
+
     .bottom__text {
       font-family: Caros, sans-serif;
       font-weight: 400;
@@ -101,12 +105,12 @@
       text-align: center;
       color: #D50404
     }
-  
+
     .hero-btn-box {
       max-width: 585px;
       width: 100%
     }
-  
+
     .hero-img {
       text-align: center;
       align-items: center;
@@ -116,30 +120,32 @@
       margin-left: auto;
       margin-right: auto
     }
-  
+
     .hero-btn {
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Bebas Neue", sans-serif;
+      font-family: Caros;
       font-weight: 700;
-      font-size: 64px;
+      font-size: clamp(14px, 5vw, 18px);
       line-height: 100%;
       text-align: center;
-      padding: 39px 0 38px 0;
+      padding: 33px 25px 33px 25px;
       background-color: #039BE5;
       box-shadow: 0 5px 0 0 #006393;
       color: #fff;
       border-radius: 100px;
-      max-width: 585px;
-      width: 100%;
       border: none;
       text-transform: uppercase;
       margin-bottom: 42px;
       text-decoration: none;
-      max-height: 142px
+      max-height: 142px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-left: 40px;
+      white-space: nowrap;
     }
-  
+
     .hero-box {
       padding: 0 35px 0 20px;
       border-radius: 10px;
@@ -151,7 +157,7 @@
       align-items: center;
       gap: 12px
     }
-  
+
     .hero-box-text {
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
@@ -159,27 +165,42 @@
       line-height: 100%;
       letter-spacing: 0%
     }
-  
+
     .img {
       display: none
     }
-  
+
     .hero-box-img {
       width: 70px;
       min-height: 70px
     }
-  
+
     @media (max-width:500px) {
       .header {
         padding-top: 30%;
         padding-bottom: 0;
         background-image: none
       }
-  
+
       .hero-left {
         display: block
       }
-  
+
+      .thankyou__img {
+        height: auto;
+        margin-left: -30px;
+      }
+
+      .hero__flex p {
+        font-family: Caros, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        margin-left: 5px;
+        margin-top: -23px;
+      }
+
       .header-container {
         margin-left: auto;
         margin-right: auto;
@@ -187,16 +208,17 @@
         padding-left: 10px;
         padding-right: 10px
       }
-  
+
       .hero-title {
         font-weight: 700;
-        font-size: 40px;
+        font-size: clamp(24px, 7vw, 36px);
         line-height: 100%;
         letter-spacing: 0%;
         text-align: center;
-        margin-bottom: 5px
+        margin-bottom: 5px;
+        margin-left: 0;
       }
-  
+
       .hero-text {
         font-weight: 500;
         font-size: 14px;
@@ -208,27 +230,36 @@
         margin-left: auto;
         margin-right: auto
       }
-  
+
       .hero-img {
         margin-bottom: 24px;
         height: 69px
       }
-  
+
       .hero-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Caros;
         font-weight: 700;
-        font-size: 32px;
+        font-size: clamp(14px, 5vw, 18px);
         line-height: 100%;
-        letter-spacing: 0%;
         text-align: center;
-        padding: 23px 0 20px 0;
-        border-radius: 30px;
-        max-width: 345px;
-        width: 100%;
+        padding: 33px 25px 33px 25px;
+        background-color: #039BE5;
+        box-shadow: 0 5px 0 0 #006393;
+        color: #fff;
+        border-radius: 100px;
+        border: none;
+        text-transform: uppercase;
+        margin-bottom: 42px;
+        text-decoration: none;
+        max-height: 142px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 25px
+        white-space: nowrap;
       }
-  
+
       .hero-box {
         padding: 5px 10px 10px 9px;
         border-radius: 10px;
@@ -237,7 +268,7 @@
         margin-left: auto;
         margin-right: auto
       }
-  
+
       .hero-box-img {
         max-width: 41px;
         width: 41px;
@@ -246,7 +277,7 @@
         object-fit: contain;
         min-height: 40px
       }
-  
+
       .hero-box-text {
         font-weight: 600;
         font-size: 11px;
@@ -255,7 +286,7 @@
         padding-top: 3px;
         padding-bottom: 2px
       }
-  
+
       .img {
         display: flex;
         max-width: 632px;
@@ -267,36 +298,34 @@
         height: auto
       }
     }
-  
+
     .footer {
       padding-top: 25px;
       padding-bottom: 25px;
       background-color: #000
     }
-  
+
     .footer__container {
       display: flex;
       align-items: center;
       justify-content: center
     }
-  
+
     .footer__link {
       color: #fff;
       font-size: 16px;
       font-weight: 400;
       font-family: sans-serif;
       text-decoration: none;
-  
+
       b {
         font-weight: 700;
         text-decoration: underline
       }
     }
   </style>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue" as="style" />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700" as="style" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;600;700&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/caros" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
   <meta name="facebook-domain-verification" content="mfv7rxk1x52m74u5ntl4uczo7xzr1r" />
 </head>
 
@@ -304,7 +333,7 @@
   <section class="header">
     <div class="header-container">
       <div class="hero-left">
-        <h2 class="hero-title">oxirgi qadam qoldi!</h2>
+        <h1 class="hero-title">oxirgi qadam qoldi!</h1>
         <p class="hero__text">Yagona Telegram kanalimizga o’tish <br> uchun pastdagi ko’k tugmani bosing</p>
         <div class="hero__flex">
           <img src="./images/thankYou__img.avif" width="174" height="320" fetchpriority="high" decoding="async"
@@ -315,7 +344,7 @@
         </div>
         <br>
         <div class="hero-btn-box">
-          <a href="https://t.me/+0nzojTmuQHk2Y2Ey" class="hero-btn thankYouBtn">obuna bo’lish</a>
+          <a href="https://t.me/+0nzojTmuQHk2Y2Ey" class="hero-btn thankYouBtn">Telegram kanalga qo’shilish</a>
         </div>
       </div>
     </div>
